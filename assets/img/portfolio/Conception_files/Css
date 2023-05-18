@@ -1,0 +1,1073 @@
+.page, #SsvObsNav {
+	background-color: rgba(255, 255, 255, 0.00) !important;
+}
+.titlepage>h2 {
+	font-weight: bold;
+	text-align: left;
+	font-family: Lucida Sans Unicode;
+	color: rgba(21, 55, 146, 1.00);
+	font-size: 3.7rem;
+	line-height: 1.2;
+}
+.rtl .titlepage>h2 {
+	text-align: right;
+}
+.titlepage>p {
+	font-weight: normal;
+	text-align: left;
+	font-family: Verdana;
+	color: rgba(21, 55, 146, 1.00);
+	font-size: 2.1rem;
+	line-height: 1.2;
+}
+.rtl .titlepage>p {
+	text-align: right;
+}
+section.question {
+	border: none;
+	-webkit-box-shadow: none;
+	-o-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	border-width: 1px;
+	border-color: rgba(192, 192, 192, 1.00);
+	--cb-radio-button-color: rgba(0, 117, 255, 1.00);
+	--cb-checkbox-button-color: rgba(0, 117, 255, 1.00);
+	--cb-checkbox-ordered-color: rgba(0, 117, 255, 1.00);
+	--cb-checkbox-ordered-color-hover: rgba(0, 117, 255, 0.20);
+	--cb-radio-button-size: 14px;
+	--cb-checkbox-button-size: 14px;
+	--cb-radio-button-bgcolor: rgba(255, 255, 255, 0.00);
+	--cb-checkbox-button-bgcolor: rgba(255, 255, 255, 0.00);
+	--cb-checkbox-ordered-bgcolor: rgba(255, 255, 255, 0.00);
+}
+section.question>p {
+	font-style: italic;
+	font-weight: normal;
+	font-family: Lucida Sans Unicode;
+	color: rgba(53, 129, 184, 1.00);
+	background-color: rgba(255, 255, 255, 0.00);
+	text-align: left;
+	font-size: 1.6rem;
+	line-height: 1.2;
+}
+.rtl section.question>p {
+	text-align: right;
+}
+section.question>h3 {
+	font-style: normal;
+	font-weight: bold;
+	font-family: Lucida Sans Unicode;
+	color: rgba(21, 55, 146, 1.00);
+	background-color: rgba(255, 255, 255, 0.00);
+	text-align: left;
+	font-size: 2.1rem;
+	line-height: 1.2;
+}
+.rtl section.question>h3 {
+	text-align: right;
+}
+section.question>div {
+	font-family: Verdana;
+	color: rgba(68, 68, 68, 1.00);
+	background-color: rgba(255, 255, 255, 0.00);
+	text-align: left;
+	font-size: 1.9rem;
+	line-height: 1.2;
+	min-height: 22px;
+}
+.rtl section.question>div {
+	text-align: right;
+}
+section.question div label {
+	font-style: normal;
+	font-weight: normal;
+	font-family: Verdana;
+	color: rgba(68, 68, 68, 1.00);
+	text-align: left;
+	font-size: 1.9rem;
+	line-height: 1.2;
+}
+.rtl section.question div label {
+	text-align: right;
+}
+section.question div span.label {
+	font-style: normal;
+	font-weight: normal;
+	font-family: Verdana;
+	color: rgba(68, 68, 68, 1.00);
+	text-align: left;
+	font-size: 1.9rem;
+	line-height: 1.2;
+}
+.rtl section.question div span.label {
+	text-align: right;
+}
+section.question div .unit {
+	font-style: normal;
+	font-weight: normal;
+	font-family: Verdana;
+	color: rgba(68, 68, 68, 1.00);
+	text-align: left;
+	font-size: 1.9rem;
+	line-height: 1.2;
+}
+.rtl section.question div .unit {
+	text-align: right;
+}
+section.question .fleft input[type="radio"], section.question .fleft input[type="checkbox"], section.question .fright input[type="radio"], section.question .fright input[type="checkbox"] {
+	margin-top: 7px !important;
+}
+section.question.scale {
+	--cb-radio-button-color: rgba(0, 117, 255, 1.00);
+	--cb-checkbox-button-color: rgba(0, 117, 255, 1.00);
+	--cb-checkbox-ordered-color: rgba(0, 117, 255, 1.00);
+	--cb-checkbox-ordered-color-hover: rgba(0, 117, 255, 0.20);
+	--cb-radio-button-size: 14px;
+	--cb-checkbox-button-size: 14px;
+	--cb-radio-button-bgcolor: rgba(255, 255, 255, 0.00);
+	--cb-checkbox-button-bgcolor: rgba(255, 255, 255, 0.00);
+	--cb-checkbox-ordered-bgcolor: rgba(255, 255, 255, 0.00);
+}
+section.question label.pictoimg-selected {
+	--cb-picto-selected-color: rgba(161, 71, 143, 1.00);
+	background-color: rgba(161, 71, 143, 0.05);
+}
+section.question.scale label.pictoimg-selected {
+	--cb-picto-selected-color: rgba(161, 71, 143, 1.00);
+	background-color: rgba(161, 71, 143, 0.05);
+}
+section.question .fill-icon {
+	--cb-fill-icons-size: 48px;
+	--cb-fill-icons-color: rgba(1, 67, 172, 1.00);
+}
+section.question div input {
+	font-style: normal;
+	font-weight: normal;
+	font-family: Calibri;
+	color: rgba(0, 0, 128, 1.00);
+	background-color: rgba(255, 255, 255, 0.00);
+	text-align: left;
+	font-size: 1.3rem;
+	line-height: 1.2;
+}
+.rtl section.question div input {
+	text-align: right;
+}
+section.question div textarea {
+	font-style: normal;
+	font-weight: normal;
+	font-family: Calibri;
+	color: rgba(0, 0, 128, 1.00);
+	background-color: rgba(255, 255, 255, 0.00);
+	text-align: left;
+	font-size: 1.3rem;
+	line-height: 1.2;
+}
+.rtl section.question div textarea {
+	text-align: right;
+}
+section.question div input + span {
+	--default-text-border-color: rgba(41, 127, 202, 1.00);
+}
+section.question .k-input[type="text"] {
+	font-style: normal;
+	font-weight: normal;
+	font-family: Calibri;
+	color: rgba(0, 0, 128, 1.00);
+	background-color: rgba(255, 255, 255, 0.00);
+	text-align: left;
+	font-size: 1.3rem;
+	line-height: 1.2;
+}
+.rtl section.question .k-input[type="text"] {
+	text-align: right;
+}
+section.question div select {
+	font-style: normal;
+	font-weight: normal;
+	font-family: Calibri;
+	color: rgba(0, 0, 128, 1.00);
+	background-color: rgba(255, 255, 255, 0.00);
+	text-align: left;
+	font-size: 1.3rem;
+	line-height: 1.2;
+}
+.rtl section.question div select {
+	text-align: right;
+}
+section.question div textarea + span {
+	--default-text-border-color: rgba(41, 127, 202, 1.00);
+	font-style: normal;
+	font-weight: normal;
+	font-family: Calibri;
+	color: rgba(0, 0, 128, 1.00);
+	background-color: rgba(255, 255, 255, 0.00);
+	text-align: left;
+	font-size: 1.3rem;
+	line-height: 1.2;
+}
+.rtl section.question div textarea + span {
+	text-align: right;
+}
+section.question div .other-precise input {
+	font-style: normal;
+	font-weight: normal;
+	font-family: Calibri;
+	background-color: rgba(255, 255, 255, 0.00);
+	text-align: left;
+	font-size: 1.3rem;
+	line-height: 1.2;
+	color: rgba(0, 0, 128, 1.00) !important;
+}
+.rtl section.question div .other-precise input {
+	text-align: right;
+}
+section.question div .other-precise textarea {
+	font-style: normal;
+	font-weight: normal;
+	font-family: Calibri;
+	background-color: rgba(255, 255, 255, 0.00);
+	text-align: left;
+	font-size: 1.3rem;
+	line-height: 1.2;
+	color: rgba(0, 0, 128, 1.00) !important;
+}
+.rtl section.question div .other-precise textarea {
+	text-align: right;
+}
+section.question .chips-wrapper label span {
+	padding: 4px;
+}
+section.question .chips-wrapper label {
+	border-width: 1px !important;
+	border-color: rgba(217, 217, 217, 1.00) !important;
+	border-radius: 16px !important;
+}
+section.question .chips-wrapper input:checked + label {
+	color: rgba(0, 0, 0, 1.00);
+	background-color: rgba(229, 229, 229, 1.00) !important;
+}
+section.question .chips-wrapper.scale label span {
+	padding: 4px;
+}
+section.question .chips-wrapper.scale label {
+	border-width: 1px !important;
+	border-color: rgba(217, 217, 217, 1.00) !important;
+	border-radius: 16px !important;
+}
+section.question .chips-wrapper.scale input:checked + label {
+	color: rgba(0, 0, 0, 1.00);
+	background-color: rgba(229, 229, 229, 1.00) !important;
+}
+section.question .varclosebtn label span, section.question .varclosebtn span.label span, section.question td.closebtn div.cell-content, section.question.closebtn div.cell-content {
+	padding: 10px;
+	line-height: 1.3;
+}
+section.question .varclosebtn label, section.question .varclosebtn span.label, section.question td.closebtn div.cell-content, section.question.closebtn div.cell-content {
+	border-width: 1px !important;
+	border-color: rgba(187, 187, 187, 1.00) !important;
+	border-radius: 5px !important;
+	text-align: left !important;
+}
+.rtl section.question .varclosebtn label, .rtl section.question .varclosebtn span.label, .rtl section.question td.closebtn div.cell-content, .rtl section.question.closebtn div.cell-content {
+	text-align: right !important;
+}
+section.question .varclosebtn label.btn-selected, section.question .varclosebtn span.label.btn-selected, section.question td.closebtn div.cell-content.btn-selected, section.question.closebtn div.cell-content.btn-selected {
+	color: rgba(255, 255, 255, 1.00);
+	background-color: rgba(127, 127, 127, 1.00) !important;
+}
+section.question .varclosebtn.scale label span, section.question td.closebtn.scale div.cell-content, section.question.closebtn.scale div.cell-content {
+	padding: 10px;
+	line-height: 1.3;
+}
+section.question .varclosebtn.scale label, section.question td.closebtn.scale div.cell-content, section.question.closebtn.scale div.cell-content {
+	border-width: 1px !important;
+	border-color: rgba(187, 187, 187, 1.00) !important;
+	border-radius: 5px !important;
+}
+section.question .varclosebtn.scale label.btn-selected, section.question td.closebtn.scale div.cell-content.btn-selected, section.question.closebtn.scale div.cell-content.btn-selected {
+	color: rgba(255, 255, 255, 1.00);
+	background-color: rgba(127, 127, 127, 1.00) !important;
+}
+section.question div.numeric-slider {
+	font-style: normal;
+	font-weight: normal;
+	font-family: Calibri;
+	color: rgba(0, 0, 128, 1.00);
+	font-size: 1.3rem;
+	line-height: 1.2;
+}
+section.question div.numeric-slider .noUi-target {
+	background-color: rgba(250, 250, 250, 1.00);
+	border-color: rgba(200, 200, 200, 1.00);
+}
+section.question div.numeric-slider .noUi-handle {
+	border-color: rgba(200, 200, 200, 1.00);
+}
+section.question div.numeric-slider .noUi-connect {
+	background-color: rgba(64, 180, 171, 1.00);
+}
+section.question  .scalegraduate {
+	width: 100%;
+	max-width: 100%;
+	margin: auto;
+}
+section.question div.scaleblock-parent.block div.scaleblock:not(.scaleblock-selected), section.question div.scaleblock-parent.block .speechleft {
+	background-color: rgba(247, 247, 247, 1.00);
+}
+section.question div.scaleblock-parent.block .speechleft:after {
+	border-bottom-color: rgba(247, 247, 247, 1.00);
+}
+section.question div.scaleblock-parent.block .speechMiddle {
+	background-color: rgba(247, 247, 247, 1.00);
+}
+section.question div.scaleblock-parent.block .speechright {
+	background-color: rgba(247, 247, 247, 1.00);
+}
+section.question div.scaleblock-parent.block .speechright:after {
+	border-bottom-color: rgba(247, 247, 247, 1.00);
+}
+section.question div.scaleblock-parent.block div.scaleblock.fill label {
+	padding-top: 12px;
+	padding-bottom: 12px;
+}
+section.question div.scaleblock-parent.block div.scaleblock:not(.fill) label {
+	padding-top: calc(12px - 5px);
+	padding-bottom: calc(12px - 5px);
+}
+section.question div.scaleblock-parent.block div.scaleblock:not(.scaleblock-selected) {
+	border-radius: 20px !important;
+}
+section.question div.scaleblock-parent.block div.scaleblock:not(.fill) input:checked + label span, section.question div.scaleblock-parent.block div.scaleblock.fill input:checked + label {
+	background-color: rgba(41, 127, 202, 1.00) !important;
+}
+section.question div.scaleblock-parent.block div.scaleblock:not(.fill) input:checked + label, section.question div.scaleblock-parent.block div.scaleblock.fill input:checked + label {
+	color: rgba(255, 255, 255, 1.00);
+}
+section.question div.scaleblock-parent.colors .speechleft {
+	background-color: rgba(252, 101, 80, 1.00);
+	color: rgba(0, 0, 0, 1.00);
+}
+section.question div.scaleblock-parent.colors .speechleft:after {
+	border-bottom-color: rgba(252, 101, 80, 1.00);
+}
+section.question div.scaleblock-parent.colors .speechMiddle {
+	background-color: rgba(252, 101, 80, 1.00);
+}
+section.question div.scaleblock-parent.colors .speechright {
+	color: rgba(255, 255, 255, 1.00);
+	background-color: rgba(45, 174, 61, 1.00);
+}
+section.question div.scaleblock-parent.colors .speechright:after {
+	border-bottom-color: rgba(45, 174, 61, 1.00);
+}
+section.question div.scaleblock-parent.colors div.scaleblock.fill label {
+	padding-top: 12px;
+	padding-bottom: 12px;
+}
+section.question div.scaleblock-parent.colors div.scaleblock:not(.fill) label {
+	padding-top: calc(12px - 5px);
+	padding-bottom: calc(12px - 5px);
+}
+section.question div.scaleblock-parent.colors div.scaleblock:not(.scaleblock-selected) {
+	border-radius: 20px !important;
+}
+section.question div.scaleblock-parent.dynamic div.scaleblock:not(.scaleblock-selected), section.question div.scaleblock-parent.dynamic .speechleft {
+	background-color: #F7F7F7;
+	color: rgba(0, 0, 0, 1.00);
+}
+section.question div.scaleblock-parent.dynamic .speechleft:after {
+	border-bottom-color: #F7F7F7;
+}
+section.question div.scaleblock-parent.dynamic .speechMiddle {
+	color: rgba(0, 0, 0, 1.00);
+}
+section.question div.scaleblock-parent.dynamic .speechright {
+	color: rgba(0, 0, 0, 1.00);
+	background-color: #F7F7F7;
+}
+section.question div.scaleblock-parent.dynamic .speechright:after {
+	border-bottom-color: #F7F7F7;
+}
+section.question div.scaleblock-parent.dynamic div.scaleblock.fill label {
+	color: rgba(0, 0, 0, 1.00);
+	padding-top: 12px;
+	padding-bottom: 12px;
+}
+section.question div.scaleblock-parent.dynamic div.scaleblock:not(.fill) label {
+	padding-top: calc(12px - 5px);
+	padding-bottom: calc(12px - 5px);
+}
+section.question div.scaleblock-parent.dynamic div.scaleblock:not(.scaleblock-selected) {
+	border-radius: 20px !important;
+}
+section.question .scalegraduate {
+	--cb-scale-range-color-bar: rgba(246, 246, 246, 1.00);
+	--cb-scale-range-color-selection: rgba(157, 167, 167, 1.00);
+	--cb-scale-range-border-size: 1px;
+	--cb-scale-range-height-bar: 9px;
+}
+section.array {
+	border: none;
+	-webkit-box-shadow: none;
+	-o-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	border-width: 1px;
+	border-color: rgba(192, 192, 192, 1.00);
+	--cb-radio-button-color: rgba(0, 117, 255, 1.00);
+	--cb-checkbox-button-color: rgba(0, 117, 255, 1.00);
+	--cb-checkbox-ordered-color: rgba(0, 117, 255, 1.00);
+	--cb-checkbox-ordered-color-hover: rgba(0, 117, 255, 0.20);
+	--cb-radio-button-size: 14px;
+	--cb-checkbox-button-size: 14px;
+	--cb-radio-button-bgcolor: rgba(255, 255, 255, 0.00);
+	--cb-checkbox-button-bgcolor: rgba(255, 255, 255, 0.00);
+	--cb-checkbox-ordered-bgcolor: rgba(255, 255, 255, 0.00);
+}
+section.array > table, section.array > table td, section.array > table th, section.array > h3.caption-title {
+	border-color: rgba(192, 192, 192, 1.00);
+}
+section.array>p {
+	font-style: italic;
+	font-weight: normal;
+	font-family: Lucida Sans Unicode;
+	color: rgba(53, 129, 184, 1.00);
+	background-color: rgba(255, 255, 255, 0.00);
+	text-align: left;
+	font-size: 1.6rem;
+	line-height: 1.2;
+}
+.rtl section.array>p {
+	text-align: right;
+}
+section.array>h3 {
+	font-style: normal;
+	font-weight: bold;
+	font-family: Lucida Sans Unicode;
+	color: rgba(21, 55, 146, 1.00);
+	background-color: rgba(255, 255, 255, 0.00);
+	text-align: left;
+	font-size: 2.1rem;
+	line-height: 1.2;
+}
+.rtl section.array>h3 {
+	text-align: right;
+}
+section.array>table th.caption {
+	font-style: normal;
+	font-weight: bold;
+	font-family: Lucida Sans Unicode;
+	color: rgba(21, 55, 146, 1.00);
+	background-color: rgba(255, 255, 255, 0.00);
+	text-align: left;
+	font-size: 2.1rem;
+	line-height: 1.2;
+}
+.rtl section.array>table th.caption {
+	text-align: right;
+}
+section.array>table th span.array-title {
+	font-style: normal;
+	font-weight: bold;
+	font-family: Lucida Sans Unicode;
+	color: rgba(21, 55, 146, 1.00);
+	background-color: rgba(255, 255, 255, 0.00);
+	text-align: left;
+	font-size: 2.1rem;
+	line-height: 1.2;
+}
+.rtl section.array>table th span.array-title {
+	text-align: right;
+}
+section.array>table {
+	width: 100%;
+}
+section.array>table td {
+	font-style: normal;
+	font-weight: normal;
+	font-family: Verdana;
+	color: rgba(68, 68, 68, 1.00);
+	background-color: rgba(255, 255, 255, 0.00);
+	text-align: left;
+	font-size: 1.9rem;
+	line-height: 1.2;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+.rtl section.array>table td {
+	text-align: right;
+}
+section.array h4 {
+	font-style: normal;
+	font-weight: bold;
+	font-family: Lucida Sans Unicode;
+	color: rgba(21, 55, 146, 1.00);
+	background-color: rgba(255, 255, 255, 0.00);
+	text-align: left;
+	font-size: 2.1rem;
+	line-height: 1.2;
+}
+.rtl section.array h4 {
+	text-align: right;
+}
+section.array .arrayquestion > .qslidewrapper {
+	border: 1px solid rgba(21, 55, 146, 1.00);
+}
+section.array div label {
+	font-style: normal;
+	font-weight: normal;
+	font-family: Verdana;
+	color: rgba(68, 68, 68, 1.00);
+	text-align: left;
+	font-size: 1.9rem;
+	line-height: 1.2;
+}
+.rtl section.array div label {
+	text-align: right;
+}
+section.array div span.label {
+	font-style: normal;
+	font-weight: normal;
+	font-family: Verdana;
+	color: rgba(68, 68, 68, 1.00);
+	text-align: left;
+	font-size: 1.9rem;
+	line-height: 1.2;
+}
+.rtl section.array div span.label {
+	text-align: right;
+}
+section.array div .unit {
+	font-style: normal;
+	font-weight: normal;
+	font-family: Verdana;
+	color: rgba(68, 68, 68, 1.00);
+	text-align: left;
+	font-size: 1.9rem;
+	line-height: 1.2;
+}
+.rtl section.array div .unit {
+	text-align: right;
+}
+section.array .fleft input[type="radio"], section.array .fleft input[type="checkbox"], section.array .fright input[type="radio"], section.array .fright input[type="checkbox"] {
+	margin-top: 7px !important;
+}
+section.array.scale {
+	--cb-radio-button-color: rgba(0, 117, 255, 1.00);
+	--cb-checkbox-button-color: rgba(0, 117, 255, 1.00);
+	--cb-checkbox-ordered-color: rgba(0, 117, 255, 1.00);
+	--cb-checkbox-ordered-color-hover: rgba(0, 117, 255, 0.20);
+	--cb-radio-button-size: 14px;
+	--cb-checkbox-button-size: 14px;
+	--cb-radio-button-bgcolor: rgba(255, 255, 255, 0.00);
+	--cb-checkbox-button-bgcolor: rgba(255, 255, 255, 0.00);
+	--cb-checkbox-ordered-bgcolor: rgba(255, 255, 255, 0.00);
+}
+section.array label.pictoimg-selected {
+	--cb-picto-selected-color: rgba(161, 71, 143, 1.00);
+	background-color: rgba(161, 71, 143, 0.05);
+}
+section.array.scale label.pictoimg-selected {
+	--cb-picto-selected-color: rgba(161, 71, 143, 1.00);
+	background-color: rgba(161, 71, 143, 0.05);
+}
+section.array .fill-icon {
+	--cb-fill-icons-size: 48px;
+	--cb-fill-icons-color: rgba(1, 67, 172, 1.00);
+}
+section.array div input {
+	font-style: normal;
+	font-weight: normal;
+	font-family: Calibri;
+	color: rgba(0, 0, 128, 1.00);
+	background-color: rgba(255, 255, 255, 0.00);
+	text-align: left;
+	font-size: 1.3rem;
+	line-height: 1.2;
+}
+.rtl section.array div input {
+	text-align: right;
+}
+section.array div textarea {
+	font-style: normal;
+	font-weight: normal;
+	font-family: Calibri;
+	color: rgba(0, 0, 128, 1.00);
+	background-color: rgba(255, 255, 255, 0.00);
+	text-align: left;
+	font-size: 1.3rem;
+	line-height: 1.2;
+}
+.rtl section.array div textarea {
+	text-align: right;
+}
+section.array div input + span {
+	--default-text-border-color: rgba(41, 127, 202, 1.00);
+}
+section.array .k-input[type="text"] {
+	font-style: normal;
+	font-weight: normal;
+	font-family: Calibri;
+	color: rgba(0, 0, 128, 1.00);
+	background-color: rgba(255, 255, 255, 0.00);
+	text-align: left;
+	font-size: 1.3rem;
+	line-height: 1.2;
+}
+.rtl section.array .k-input[type="text"] {
+	text-align: right;
+}
+section.array div select {
+	font-style: normal;
+	font-weight: normal;
+	font-family: Calibri;
+	color: rgba(0, 0, 128, 1.00);
+	background-color: rgba(255, 255, 255, 0.00);
+	text-align: left;
+	font-size: 1.3rem;
+	line-height: 1.2;
+}
+.rtl section.array div select {
+	text-align: right;
+}
+section.array div textarea + span {
+	--default-text-border-color: rgba(41, 127, 202, 1.00);
+	font-style: normal;
+	font-weight: normal;
+	font-family: Calibri;
+	color: rgba(0, 0, 128, 1.00);
+	background-color: rgba(255, 255, 255, 0.00);
+	text-align: left;
+	font-size: 1.3rem;
+	line-height: 1.2;
+}
+.rtl section.array div textarea + span {
+	text-align: right;
+}
+section.array div .other-precise input {
+	font-style: normal;
+	font-weight: normal;
+	font-family: Calibri;
+	background-color: rgba(255, 255, 255, 0.00);
+	text-align: left;
+	font-size: 1.3rem;
+	line-height: 1.2;
+	color: rgba(0, 0, 128, 1.00) !important;
+}
+.rtl section.array div .other-precise input {
+	text-align: right;
+}
+section.array div .other-precise textarea {
+	font-style: normal;
+	font-weight: normal;
+	font-family: Calibri;
+	background-color: rgba(255, 255, 255, 0.00);
+	text-align: left;
+	font-size: 1.3rem;
+	line-height: 1.2;
+	color: rgba(0, 0, 128, 1.00) !important;
+}
+.rtl section.array div .other-precise textarea {
+	text-align: right;
+}
+section.array .chips-wrapper label span {
+	padding: 4px;
+}
+section.array .chips-wrapper label {
+	border-width: 1px !important;
+	border-color: rgba(217, 217, 217, 1.00) !important;
+	border-radius: 16px !important;
+}
+section.array .chips-wrapper input:checked + label {
+	color: rgba(0, 0, 0, 1.00);
+	background-color: rgba(229, 229, 229, 1.00) !important;
+}
+section.array .chips-wrapper.scale label span {
+	padding: 4px;
+}
+section.array .chips-wrapper.scale label {
+	border-width: 1px !important;
+	border-color: rgba(217, 217, 217, 1.00) !important;
+	border-radius: 16px !important;
+}
+section.array .chips-wrapper.scale input:checked + label {
+	color: rgba(0, 0, 0, 1.00);
+	background-color: rgba(229, 229, 229, 1.00) !important;
+}
+section.array .varclosebtn label span, section.array .varclosebtn span.label span, section.array td.closebtn div.cell-content, section.array.closebtn div.cell-content {
+	padding: 10px;
+	line-height: 1.3;
+}
+section.array .varclosebtn label, section.array .varclosebtn span.label, section.array td.closebtn div.cell-content, section.array.closebtn div.cell-content {
+	border-width: 1px !important;
+	border-color: rgba(187, 187, 187, 1.00) !important;
+	border-radius: 5px !important;
+	text-align: left !important;
+}
+.rtl section.array .varclosebtn label, .rtl section.array .varclosebtn span.label, .rtl section.array td.closebtn div.cell-content, .rtl section.array.closebtn div.cell-content {
+	text-align: right !important;
+}
+section.array .varclosebtn label.btn-selected, section.array .varclosebtn span.label.btn-selected, section.array td.closebtn div.cell-content.btn-selected, section.array.closebtn div.cell-content.btn-selected {
+	color: rgba(255, 255, 255, 1.00);
+	background-color: rgba(127, 127, 127, 1.00) !important;
+}
+section.array .varclosebtn.scale label span, section.array td.closebtn.scale div.cell-content, section.array.closebtn.scale div.cell-content {
+	padding: 10px;
+	line-height: 1.3;
+}
+section.array .varclosebtn.scale label, section.array td.closebtn.scale div.cell-content, section.array.closebtn.scale div.cell-content {
+	border-width: 1px !important;
+	border-color: rgba(187, 187, 187, 1.00) !important;
+	border-radius: 5px !important;
+}
+section.array .varclosebtn.scale label.btn-selected, section.array td.closebtn.scale div.cell-content.btn-selected, section.array.closebtn.scale div.cell-content.btn-selected {
+	color: rgba(255, 255, 255, 1.00);
+	background-color: rgba(127, 127, 127, 1.00) !important;
+}
+section.array div.numeric-slider {
+	font-style: normal;
+	font-weight: normal;
+	font-family: Calibri;
+	color: rgba(0, 0, 128, 1.00);
+	font-size: 1.3rem;
+	line-height: 1.2;
+}
+section.array div.numeric-slider .noUi-target {
+	background-color: rgba(250, 250, 250, 1.00);
+	border-color: rgba(200, 200, 200, 1.00);
+}
+section.array div.numeric-slider .noUi-handle {
+	border-color: rgba(200, 200, 200, 1.00);
+}
+section.array div.numeric-slider .noUi-connect {
+	background-color: rgba(64, 180, 171, 1.00);
+}
+section.array div.scaleblock-parent.block div.scaleblock:not(.scaleblock-selected), section.array div.scaleblock-parent.block .speechleft {
+	background-color: rgba(247, 247, 247, 1.00);
+}
+section.array div.scaleblock-parent.block .speechleft:after {
+	border-bottom-color: rgba(247, 247, 247, 1.00);
+}
+section.array div.scaleblock-parent.block .speechMiddle {
+	background-color: rgba(247, 247, 247, 1.00);
+}
+section.array div.scaleblock-parent.block .speechright {
+	background-color: rgba(247, 247, 247, 1.00);
+}
+section.array div.scaleblock-parent.block .speechright:after {
+	border-bottom-color: rgba(247, 247, 247, 1.00);
+}
+section.array div.scaleblock-parent.block div.scaleblock.fill label {
+	padding-top: 12px;
+	padding-bottom: 12px;
+}
+section.array div.scaleblock-parent.block div.scaleblock:not(.fill) label {
+	padding-top: calc(12px - 5px);
+	padding-bottom: calc(12px - 5px);
+}
+section.array div.scaleblock-parent.block div.scaleblock:not(.scaleblock-selected) {
+	border-radius: 20px !important;
+}
+section.array div.scaleblock-parent.block div.scaleblock:not(.fill) input:checked + label span, section.array div.scaleblock-parent.block div.scaleblock.fill input:checked + label {
+	background-color: rgba(41, 127, 202, 1.00) !important;
+}
+section.array div.scaleblock-parent.block div.scaleblock:not(.fill) input:checked + label, section.array div.scaleblock-parent.block div.scaleblock.fill input:checked + label {
+	color: rgba(255, 255, 255, 1.00);
+}
+section.array div.scaleblock-parent.colors .speechleft {
+	background-color: rgba(252, 101, 80, 1.00);
+	color: rgba(0, 0, 0, 1.00);
+}
+section.array div.scaleblock-parent.colors .speechleft:after {
+	border-bottom-color: rgba(252, 101, 80, 1.00);
+}
+section.array div.scaleblock-parent.colors .speechMiddle {
+	background-color: rgba(252, 101, 80, 1.00);
+}
+section.array div.scaleblock-parent.colors .speechright {
+	color: rgba(255, 255, 255, 1.00);
+	background-color: rgba(45, 174, 61, 1.00);
+}
+section.array div.scaleblock-parent.colors .speechright:after {
+	border-bottom-color: rgba(45, 174, 61, 1.00);
+}
+section.array div.scaleblock-parent.colors div.scaleblock.fill label {
+	padding-top: 12px;
+	padding-bottom: 12px;
+}
+section.array div.scaleblock-parent.colors div.scaleblock:not(.fill) label {
+	padding-top: calc(12px - 5px);
+	padding-bottom: calc(12px - 5px);
+}
+section.array div.scaleblock-parent.colors div.scaleblock:not(.scaleblock-selected) {
+	border-radius: 20px !important;
+}
+section.array div.scaleblock-parent.dynamic div.scaleblock:not(.scaleblock-selected), section.array div.scaleblock-parent.dynamic .speechleft {
+	background-color: #F7F7F7;
+	color: rgba(0, 0, 0, 1.00);
+}
+section.array div.scaleblock-parent.dynamic .speechleft:after {
+	border-bottom-color: #F7F7F7;
+}
+section.array div.scaleblock-parent.dynamic .speechMiddle {
+	color: rgba(0, 0, 0, 1.00);
+}
+section.array div.scaleblock-parent.dynamic .speechright {
+	color: rgba(0, 0, 0, 1.00);
+	background-color: #F7F7F7;
+}
+section.array div.scaleblock-parent.dynamic .speechright:after {
+	border-bottom-color: #F7F7F7;
+}
+section.array div.scaleblock-parent.dynamic div.scaleblock.fill label {
+	color: rgba(0, 0, 0, 1.00);
+	padding-top: 12px;
+	padding-bottom: 12px;
+}
+section.array div.scaleblock-parent.dynamic div.scaleblock:not(.fill) label {
+	padding-top: calc(12px - 5px);
+	padding-bottom: calc(12px - 5px);
+}
+section.array div.scaleblock-parent.dynamic div.scaleblock:not(.scaleblock-selected) {
+	border-radius: 20px !important;
+}
+section.array  .scalegraduate {
+	max-width: 100%;
+	margin: auto;
+}
+section.array .scalegraduate {
+	--cb-scale-range-color-bar: rgba(246, 246, 246, 1.00);
+	--cb-scale-range-color-selection: rgba(157, 167, 167, 1.00);
+	--cb-scale-range-border-size: 1px;
+	--cb-scale-range-height-bar: 9px;
+}
+section.array>table td .unit {
+	font-style: normal;
+	font-weight: normal;
+	font-family: Verdana;
+	color: rgba(68, 68, 68, 1.00);
+	text-align: left;
+	font-size: 1.9rem;
+	line-height: 1.2;
+}
+.rtl section.array>table td .unit {
+	text-align: right;
+}
+section.array>table th {
+	font-style: normal;
+	font-weight: normal;
+	font-family: Verdana;
+	color: rgba(68, 68, 68, 1.00);
+	background-color: rgba(255, 255, 255, 0.00);
+	text-align: left;
+	font-size: 1.9rem;
+	line-height: 1.2;
+}
+.rtl section.array>table th {
+	text-align: right;
+}
+section.array>section>h3 {
+	font-style: normal;
+	font-weight: bold;
+	font-family: Lucida Sans Unicode;
+	color: rgba(21, 55, 146, 1.00);
+	background-color: rgba(255, 255, 255, 0.00);
+	text-align: left;
+	font-size: 2.1rem;
+	line-height: 1.2;
+}
+.rtl section.array>section>h3 {
+	text-align: right;
+}
+section.array.addressblock {
+	font-style: normal;
+	font-weight: normal;
+	font-family: Verdana;
+	color: rgba(68, 68, 68, 1.00);
+	background-color: rgba(255, 255, 255, 0.00);
+	text-align: left;
+	font-size: 1.9rem;
+	line-height: 1.2;
+}
+.rtl section.array.addressblock {
+	text-align: right;
+}
+section.array>table input {
+	font-style: normal;
+	font-weight: normal;
+	font-family: Calibri;
+	color: rgba(0, 0, 128, 1.00);
+	background-color: rgba(255, 255, 255, 0.00);
+	text-align: left;
+	font-size: 1.3rem;
+	line-height: 1.2;
+}
+.rtl section.array>table input {
+	text-align: right;
+}
+section.array>table select {
+	font-style: normal;
+	font-weight: normal;
+	font-family: Calibri;
+	color: rgba(0, 0, 128, 1.00);
+	background-color: rgba(255, 255, 255, 0.00);
+	text-align: left;
+	font-size: 1.3rem;
+	line-height: 1.2;
+}
+.rtl section.array>table select {
+	text-align: right;
+}
+section.array>table textarea {
+	font-style: normal;
+	font-weight: normal;
+	font-family: Calibri;
+	color: rgba(0, 0, 128, 1.00);
+	background-color: rgba(255, 255, 255, 0.00);
+	text-align: left;
+	font-size: 1.3rem;
+	line-height: 1.2;
+}
+.rtl section.array>table textarea {
+	text-align: right;
+}
+section.array>table div.font-entry:before {
+	font-style: normal;
+	font-weight: normal;
+	font-family: Calibri;
+	color: rgba(0, 0, 128, 1.00);
+	background-color: rgba(255, 255, 255, 0.00);
+	text-align: left;
+	font-size: 1.3rem;
+	line-height: 1.2;
+}
+.rtl section.array>table div.font-entry:before {
+	text-align: right;
+}
+section.array>table tr.even>td {
+	background-color: rgba(242, 242, 242, 1.00) !important;
+}
+.object-media {
+	text-align: center;
+}
+.titlelvl1 {
+	border: none;
+	-webkit-box-shadow: none;
+	-o-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	border-width: 2px;
+	border-color: rgba(0, 28, 80, 1.00);
+}
+.titlelvl1>h2 {
+	font-style: normal;
+	font-weight: bold;
+	font-family: Lucida Sans Unicode;
+	color: rgba(21, 55, 146, 1.00);
+	background-color: rgba(255, 255, 255, 0.00);
+	text-align: left;
+	font-size: 3.7rem;
+	line-height: 1.2;
+}
+.rtl .titlelvl1>h2 {
+	text-align: right;
+}
+.titlelvl1>p {
+	font-style: normal;
+	font-weight: normal;
+	font-family: Verdana;
+	color: rgba(21, 55, 146, 1.00);
+	background-color: rgba(255, 255, 255, 0.00);
+	text-align: left;
+	font-size: 2.1rem;
+	line-height: 1.2;
+}
+.rtl .titlelvl1>p {
+	text-align: right;
+}
+a.skip-link {
+	font-style: normal;
+	font-weight: bold;
+	font-family: Lucida Sans Unicode;
+	color: rgba(21, 55, 146, 1.00);
+	background-color: rgba(255, 255, 255, 0.00);
+	text-align: left;
+	font-size: 3.7rem;
+	line-height: 1.2;
+}
+.rtl a.skip-link {
+	text-align: right;
+}
+.object-text {
+	border: none;
+	-webkit-box-shadow: none;
+	-o-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	border-width: 1px;
+	border-color: rgba(0, 0, 0, 1.00);
+	font-style: normal;
+	font-weight: normal;
+	font-family: Verdana;
+	color: rgba(21, 55, 146, 1.00);
+	background-color: rgba(255, 255, 255, 0.00);
+	text-align: left;
+	font-size: 1.9rem;
+	line-height: 1.2;
+}
+.rtl .object-text {
+	text-align: right;
+}
+.object-btn button {
+	font-style: normal;
+	font-weight: normal;
+	font-family: Verdana;
+	color: rgba(255, 255, 255, 1.00);
+	font-size: 1.5rem;
+	text-align: left;
+	width: 100%;
+}
+.rtl .object-btn button {
+	text-align: right;
+}
+.navbtn a {
+	font-style: normal;
+	font-weight: normal;
+	font-family: Verdana;
+	color: rgba(255, 255, 255, 1.00);
+	font-size: 1.5rem;
+	text-align: left;
+}
+.rtl .navbtn a {
+	text-align: right;
+}
+.skin-style {
+	background-color: rgba(21, 55, 146, 1.00);
+}
+.ssv-btn.btnmod12 {
+	background-color: rgba(21, 55, 146, 1.00);
+}
+.ssv-btn.btnmod34 {
+	background-color: rgba(184, 195, 222, 1.00);
+	color: rgba(21, 55, 146, 1.00);
+	box-shadow: none;
+	border: thin solid rgba(21, 55, 146, 1.00);
+}
+ .pgbmod1 {
+	background: none repeat scroll 0 0 rgba(21, 55, 146, 0.5);
+	box-shadow: 0 1px 2px rgba(21, 55, 146, 0.5);
+}
+ .ssv_pgbprec {
+	background: none repeat scroll 0 0 rgba(21, 55, 146, 1.00);
+}
+.object-pgb .pgbmod3 .ssv_pgbprec {
+	background: none repeat scroll 0 0 rgba(21, 55, 146, 1.00);
+}
+.object-pgb .pgbmod4 .filled {
+	background: none repeat scroll 0 0 rgba(21, 55, 146, 1.00);
+}
+#fiche {
+	box-shadow: none;
+}

@@ -1,0 +1,386 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0091)https://sphinxdeclic.com/d/management/windows/JumpDefinition.aspx?rnd=5&addforid=1123389302 -->
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" class="t-chrome t-chrome113"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta name="robots" content="noindex, nofollow"><title>Scénariser</title>
+		<link rel="stylesheet" type="text/css" href="./wnd.min.css">
+		<script type="text/javascript" src="./wnd.min.js.téléchargement"></script>
+	
+	<link rel="stylesheet" type="text/css" href="./jumpdefinition.min.css">
+
+	<link href="./Telerik.Web.UI.WebResource(5).axd" type="text/css" rel="stylesheet"><div id="uuidMachine">8b12ae7d-12ec-497f-b0a4-62e950648513</div></head>
+<body>
+	<noscript>
+		<style type="text/css" media="all">
+			form {
+				display: none;
+			}
+		</style>
+		<div style="padding: 50px 25%;">
+			<div style="background-color: #FFF476; font-size: 20px; line-height: 30px; color: #595959; text-shadow: 0 1px #FFF; text-align: center; padding: 20px;">
+				Ce site nécessite que Javascript soit activé afin qu'il puisse fonctionner correctement.
+			</div>
+		</div>
+	</noscript>
+	<form method="post" action="https://sphinxdeclic.com/d/management/windows/JumpDefinition.aspx?rnd=5&amp;addforid=1123389302" id="aspnetForm">
+<div>
+<input type="hidden" name="ctl00_ctl07_TSSM" id="ctl00_ctl07_TSSM" value=";Telerik.Web.UI, Version=2021.3.914.45, Culture=neutral, PublicKeyToken=121fae78165ba3d4:fr-FR:bd4f5d20-e2f4-41b1-99ef-02ee4a064af0:45085116:27c5704c:1c2121e;Telerik.Web.UI.Skins, Version=2021.3.914.45, Culture=neutral, PublicKeyToken=121fae78165ba3d4:fr-FR:bd68d779-31cd-457f-adc8-06e8ac5469a8:7681543b">
+<input type="hidden" name="ctl00_sm1_TSM" id="ctl00_sm1_TSM" value=";;System.Web.Extensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35:fr-FR:5bc44d53-7cae-4d56-af98-205692fecf1f:ea597d4b:b25378d2;Telerik.Web.UI, Version=2021.3.914.45, Culture=neutral, PublicKeyToken=121fae78165ba3d4:fr-FR:bd4f5d20-e2f4-41b1-99ef-02ee4a064af0:16e4e7cd:365331c3:88144a7a:ed16cbdc:33715776:24ee1bba:c128760b:1e771326:2003d0b8:f46195d3:aa288e2d:258f1c72;">
+
+
+
+
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['aspnetForm'];
+if (!theForm) {
+    theForm = document.aspnetForm;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="./WebResource.axd" type="text/javascript"></script>
+
+
+<script src="./Telerik.Web.UI.WebResource(6).axd" type="text/javascript"></script>
+<div>
+
+	
+</div>
+		<input name="ctl00$hdnCurrentPath" type="hidden" id="ctl00_hdnCurrentPath" class="hdnCurrentPath" value="https://sphinxdeclic.com/d">
+		<div class="RadAjaxPanel" id="ctl00_scriptContent_ctl00_hdnAjaxReturnPanel" style="display: block;"><input name="ctl00$hdnAjaxReturn" type="hidden" id="ctl00_hdnAjaxReturn" class="hdnAjaxReturn"></div>
+		<div class="RadAjaxPanel" id="ctl00_scriptContent_ctl00_hdnAjaxReturnTextPanel" style="display: block;"><input name="ctl00$hdnAjaxReturnText" type="hidden" id="ctl00_hdnAjaxReturnText" class="hdnAjaxReturnText"></div>
+		<div id="ctl00_ralp1" class="RadAjax RadAjax_Default" style="display:none;">
+	<div class="raDiv">
+
+	</div><div class="raColor raTransp">
+
+	</div>
+</div>
+		
+		<script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ctl00$sm1', 'aspnetForm', ['tctl00$scriptContent$ctl00$windowContentPanel','','tctl00$scriptContent$ctl00$hdnAjaxReturnPanel','','tctl00$scriptContent$ctl00$hdnAjaxReturnTextPanel','','tctl00$scriptContent$RadAjaxManager1SU',''], ['ctl00$dcq$m_oVarList','','ctl00$dcq$m_oDelLink','','ctl00$dcq$m_oAddLink','','ctl00$btnOK',''], [], 600, 'ctl00');
+//]]>
+</script>
+
+		
+	<script type="text/javascript">
+		function GetOpList() {
+			return $find("ctl00_dcq_m_oOpList");
+			}
+			function GetDateRegroupOperators() {
+				return $find("ctl00_dcq_m_oDateRegroupOperators");
+		}
+
+		function pageLoad(sender, args) {
+			if (!args.get_isPartialLoad()) {
+				//on affiche le premier onglet
+				ChangeTab(0);
+			}
+
+			updatePlaceholder();
+		}
+
+		function updatePlaceholder() {
+			var combo = GetDateRegroupOperators();
+
+			if (combo != null) {
+				var selectedItem = combo.get_selectedItem();
+				var placeHolder = '';
+
+				var opList = GetOpList();
+				var opValue = opList.get_value();
+				if (opValue === "0" || opValue === "1") { //Parmi
+					placeHolder = selectedItem.get_attributes().getAttribute("data-placeholder-in");
+				} else {
+					placeHolder = selectedItem.get_attributes().getAttribute("data-placeholder");
+				}
+
+				$('.m_txtInf, .m_txtSup, .m_oValuesText').prop('placeholder', placeHolder);
+			}
+		}
+
+		function ChangeTab(index) {
+			$('.tab').removeClass("button_action_large_blue_modale");
+			$('.tab').addClass("button_action_large_grey_modale");
+			$($('.tab').get(index)).toggleClass('button_action_large_blue_modale');
+			$($('.tab').get(index)).toggleClass('button_action_large_grey_modale');
+
+			$('.divtab').hide();
+			$('.div' + index).show();
+		}
+
+		function ConfirmDelete(sMsg) {
+			if ($('.m_oJumpList').length == 0) { return false; }
+			else { return confirm(sMsg); }
+		}
+
+		function afterAjax() {
+			setNotification();
+			AfterAjaxCall();
+		}
+	</script>
+	<!-- 2021.3.914.45 --><div id="ctl00_scriptContent_RadAjaxManager1SU" style="display: none;"><span id="ctl00_scriptContent_RadAjaxManager1" style="display:none;"></span></div>
+
+		<div id="popup" class="popup_texte">
+			<div class="RadAjaxPanel" id="ctl00_scriptContent_ctl00_windowContentPanel" style="display: block;"><div id="ctl00_windowContent">
+				<div id="popup_scroll" style="height: 510px;">
+					
+	<div class="part">
+		<div id="bt_theme">
+			<a onclick="ChangeTab(0); return false;" class="tab button_action_large_blue_modale" href="javascript:__doPostBack(&#39;ctl00$dcq$ctl01&#39;,&#39;&#39;)"><span>
+				<p>
+					Renvois</p>
+			</span></a>
+			<a onclick="ChangeTab(1); return false;" class="tab button_action_large_grey_modale" href="javascript:__doPostBack(&#39;ctl00$dcq$ctl03&#39;,&#39;&#39;)"><span>
+				<p>
+					Affichage aléatoire des pages</p>
+			</span></a>
+			<br class="clear">
+		</div>
+		<div class="divRenvois div0 divtab">
+			<div class="bloc_1">
+				<p>
+					Un renvoi permet de ne pas présenter une partie du questionnaire aux répondants qui ne sont pas concernés par certaines questions.
+				</p>
+				<div class="part">
+					
+					<a id="ctl00_dcq_m_oAddLink" class="b-s green m_oAddLink" href="javascript:__doPostBack(&#39;ctl00$dcq$m_oAddLink&#39;,&#39;&#39;)"><span id="ctl00_dcq_Label1" title="Ajouter" class="text">Ajouter</span></a>
+					<a onclick="javascript: return ConfirmDelete(&#39;Etes-vous sûr(e) de vouloir supprimer ce renvoi ?&#39;);" id="ctl00_dcq_m_oDelLink" class="b-s green m_oDelLink" href="javascript:__doPostBack(&#39;ctl00$dcq$m_oDelLink&#39;,&#39;&#39;)"><span id="ctl00_dcq_Label2" title="Supprimer" class="text">Supprimer</span></a>
+					<select size="4" name="ctl00$dcq$m_oJumpList" onchange="javascript:setTimeout(&#39;__doPostBack(\&#39;ctl00$dcq$m_oJumpList\&#39;,\&#39;\&#39;)&#39;, 0)" id="ctl00_dcq_m_oJumpList" class="m_oJumpList" style="height:100px;width:100%;margin-top: 5px; margin-bottom: 5px;">
+	<option value="11674249-2bde-4850-9ab4-37bd9395323b">Après '3-Êtes-vous actuellement étud...', Aller à '4-Si non, dans quel universit...' si 3. Êtes-vous actuellement étud... parmi "Non".</option>
+	<option value="ac54b1d5-1cef-40d3-8a6f-a55cbc684eba">Après '6-Avez-vous l'intention de vo...', Aller à '7-Pouvez-vous expliquer la ra...' si 6. Avez-vous l'intention de vo... parmi "Non".</option>
+	<option value="afe4f67a-0706-4fb8-a469-7c0eb5e5ee72">Après '8-Si vous avez l'intention de...', Aller à '9-Si 'Autre (veuillez précise...' si 8. Si vous avez l'intention de... parmi "Autres".</option>
+	<option value="1091e7fa-2e8e-49fc-ac32-6521e4d1975b">Après '10-Êtes-vous satisfait de l'en...', Aller à '11-Si vous n'êtes pas satisfai...' si 10. Êtes-vous satisfait de l'en... parmi "Pas satisfait".</option>
+	<option value="ebd9dc8f-f90a-4e68-a081-b7d4b67aae51">Après '10-Êtes-vous satisfait de l'en...', Aller à '11-Si vous n'êtes pas satisfai...' si 10. Êtes-vous satisfait de l'en... parmi "Très insatisfait".</option>
+	<option value="ede186fe-9515-4cad-9c42-e8ef36c7159d">Après '13-Avez-vous des questions ou ...', Aller à '14-Si oui veuillez les notifier' si 13. Avez-vous des questions ou ... parmi "Oui".</option>
+	<option value="0d7808a8-e450-48d9-b957-484817c09662">Après '15-Avez-vous déjà effectué des...', Aller à '16-Si oui, veuillez les décrir...' si 13. Avez-vous des questions ou ... parmi "Oui".</option>
+	<option value="3d712a12-895e-4837-a131-dedf2e0d858a">Après '17-Avez-vous des expériences d...', Aller à '18-Si oui veuillez préciser' si 17. Avez-vous des expériences d... parmi "Oui".</option>
+	<option selected="selected" value="4813e932-4bb2-4e77-afd8-cd821ec0eeb5">Après '19-Et enfin,avez-vous des comm...', Aller à '20-Si oui veuillez nous les pa...' si 19. Et enfin,avez-vous des comm... parmi "Oui".</option>
+
+</select>
+				</div>
+				<div class="part" style="padding-top: 0;">
+					
+					<div id="ctl00_dcq_m_oPanelOneJump" class="text" style="visibility:visible;">
+	
+						<table class="jumpdeflayout">
+							<tbody><tr>
+								<td style="width: 215px;">
+									<h2>
+										<span id="ctl00_dcq_lblFrom">Après la question</span></h2>
+								</td>
+								<td>
+									<select name="ctl00$dcq$selectFrom" onchange="javascript:setTimeout(&#39;__doPostBack(\&#39;ctl00$dcq$selectFrom\&#39;,\&#39;\&#39;)&#39;, 0)" id="ctl00_dcq_selectFrom" style="width:250px;">
+		<option value="1730577500">1-Entrez votre adresse mail</option>
+		<option value="708361529">2-Quel est votre nationalité ?</option>
+		<option value="1538187597">3-Êtes-vous actuellement étudiant en Licence 3 à l'école d'ingénieurs et Digital Campus ?</option>
+		<option value="1811879761">4-Si non, dans quel université avez-vous obtenu votre licence ?</option>
+		<option value="1599477051">5-Quel est votre programme de Licence 3 actuel à l'école d'ingénieurs et Digital Campus ?</option>
+		<option value="2032596510">6-Avez-vous l'intention de vous inscrire en Master pour l'année académique 2023-2024 à l'école d'ingénieurs et Digital Campus?</option>
+		<option value="2066409443">7-Pouvez-vous expliquer la raison ?</option>
+		<option value="566423053">8-Si vous avez l'intention de vous inscrire en Master, quel est le programme de Master qui vous intéresse à l'école d'ingénieurs et Digital Campus ?</option>
+		<option value="511556769">9-Si 'Autre (veuillez préciser)', précisez :</option>
+		<option value="1923458573">10-Êtes-vous satisfait de l'enseignement et des ressources fournies à l'école d'ingénieurs et Digital Campus ?</option>
+		<option value="570729372">11-Si vous n'êtes pas satisfait de l'enseignement et des ressources fournies, pouvez-vous expliquer pourquoi ?</option>
+		<option value="853386704">12-Comment cela a-t-il influencé votre décision de poursuivre en Master ?</option>
+		<option value="1422468505">13-Avez-vous des questions ou des préoccupations supplémentaires concernant la préinscription en Master 1 dans notre école d'ingénieurs ?</option>
+		<option value="110205526">14-Si oui veuillez les notifier</option>
+		<option value="247068733">15-Avez-vous déjà effectué des stages ou des projets de recherche dans le domaine de l'ingénierie ?</option>
+		<option value="225917918">16-Si oui, veuillez les décrire brièvement</option>
+		<option value="556692354">17-Avez-vous des expériences de leadership ou d'implication dans des activités extra-scolaires, des associations étudiantes ou des projets communautaires ?</option>
+		<option value="976849419">18-Si oui veuillez préciser</option>
+		<option value="791211021" selected="selected">19-Et enfin,avez-vous des commentaires ou des suggestions pour améliorer l'expérience des étudiants à l'école d'ingénieurs et Digital Campus ?</option>
+		<option value="1123389302">20-Si oui veuillez nous les partager</option>
+
+	</select>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<select name="ctl00$dcq$ddlCond" onchange="javascript:setTimeout(&#39;__doPostBack(\&#39;ctl00$dcq$ddlCond\&#39;,\&#39;\&#39;)&#39;, 0)" id="ctl00_dcq_ddlCond" class="m_oVarList" style="width:195px;">
+		<option value="if" selected="selected">Si</option>
+		<option value="allways">Quelle que soit la réponse</option>
+
+	</select>
+								</td>
+								<td>
+									<div id="ctl00_dcq_ConditionDiv" style="visibility:visible;">
+										<div id="ctl00_dcq_m_oVarList" class="RadComboBox RadComboBox_Bootstrap m_oVarList" style="width:130px;white-space:normal;">
+		<!-- 2021.3.914.45 --><table summary="combobox" border="0" style="border-width:0;border-collapse:collapse;width:100%">
+			<tbody><tr class="rcbReadOnly">
+				<td class="rcbInputCell rcbInputCellLeft" style="width:100%;"><input name="ctl00$dcq$m_oVarList" type="text" class="rcbInput radPreventDecorate" id="ctl00_dcq_m_oVarList_Input" value="19-Et enfin,avez-vous des commentaires ou des suggestions pour améliorer l&#39;expérience des étudiants à l&#39;école d&#39;ingénieurs et Digital Campus ?" readonly="readonly" autocomplete="off"></td><td class="rcbArrowCell rcbArrowCellRight"><a id="ctl00_dcq_m_oVarList_Arrow" style="overflow: hidden;display: block;position: relative;outline: none;">select</a></td>
+			</tr>
+		</tbody></table><div class="rcbSlide" style="z-index: 6000; display: none; width: 250px;"><div id="ctl00_dcq_m_oVarList_DropDown" class="RadComboBoxDropDown RadComboBoxDropDown_Bootstrap " style="width: 248px;"><div class="rcbScroll rcbWidth rcbNoWrap"><ul class="rcbList"><li class="rcbItem">1-Entrez votre adresse mail</li><li class="rcbItem">2-Quel est votre nationalité ?</li><li class="rcbItem">3-Êtes-vous actuellement étudiant en Licence 3 à l'école d'ingénieurs et Digital Campus ?</li><li class="rcbItem">4-Si non, dans quel université avez-vous obtenu votre licence ?</li><li class="rcbItem">5-Quel est votre programme de Licence 3 actuel à l'école d'ingénieurs et Digital Campus ?</li><li class="rcbItem">6-Avez-vous l'intention de vous inscrire en Master pour l'année académique 2023-2024 à l'école d'ingénieurs et Digital Campus?</li><li class="rcbItem">7-Pouvez-vous expliquer la raison ?</li><li class="rcbItem">8-Si vous avez l'intention de vous inscrire en Master, quel est le programme de Master qui vous intéresse à l'école d'ingénieurs et Digital Campus ?</li><li class="rcbItem">9-Si 'Autre (veuillez préciser)', précisez :</li><li class="rcbItem">10-Êtes-vous satisfait de l'enseignement et des ressources fournies à l'école d'ingénieurs et Digital Campus ?</li><li class="rcbItem">11-Si vous n'êtes pas satisfait de l'enseignement et des ressources fournies, pouvez-vous expliquer pourquoi ?</li><li class="rcbItem">12-Comment cela a-t-il influencé votre décision de poursuivre en Master ?</li><li class="rcbItem">13-Avez-vous des questions ou des préoccupations supplémentaires concernant la préinscription en Master 1 dans notre école d'ingénieurs ?</li><li class="rcbItem">14-Si oui veuillez les notifier</li><li class="rcbItem">15-Avez-vous déjà effectué des stages ou des projets de recherche dans le domaine de l'ingénierie ?</li><li class="rcbItem">16-Si oui, veuillez les décrire brièvement</li><li class="rcbItem">17-Avez-vous des expériences de leadership ou d'implication dans des activités extra-scolaires, des associations étudiantes ou des projets communautaires ?</li><li class="rcbItem">18-Si oui veuillez préciser</li><li class="rcbItem">19-Et enfin,avez-vous des commentaires ou des suggestions pour améliorer l'expérience des étudiants à l'école d'ingénieurs et Digital Campus ?</li><li class="rcbItem">20-Si oui veuillez nous les partager</li></ul></div></div></div><input id="ctl00_dcq_m_oVarList_ClientState" name="ctl00_dcq_m_oVarList_ClientState" type="hidden" autocomplete="off">
+	</div>
+										<div id="ctl00_dcq_m_oOpList" class="RadComboBox RadComboBox_Bootstrap m_oOpList" style="width:130px;white-space:normal;">
+		<table summary="combobox" border="0" style="border-width:0;border-collapse:collapse;width:100%">
+			<tbody><tr class="rcbReadOnly">
+				<td class="rcbInputCell rcbInputCellLeft" style="width:100%;"><input name="ctl00$dcq$m_oOpList" type="text" class="rcbInput radPreventDecorate" id="ctl00_dcq_m_oOpList_Input" value="est parmi" readonly="readonly" autocomplete="off"></td><td class="rcbArrowCell rcbArrowCellRight"><a id="ctl00_dcq_m_oOpList_Arrow" style="overflow: hidden;display: block;position: relative;outline: none;">select</a></td>
+			</tr>
+		</tbody></table><div class="rcbSlide" style="z-index: 6000; display: none; width: 150px;"><div id="ctl00_dcq_m_oOpList_DropDown" class="RadComboBoxDropDown RadComboBoxDropDown_Bootstrap " style="width: 148px;"><div class="rcbScroll rcbWidth"><ul class="rcbList"><li class="rcbItem">est parmi</li><li class="rcbItem">n'est pas parmi</li></ul></div></div></div><input id="ctl00_dcq_m_oOpList_ClientState" name="ctl00_dcq_m_oOpList_ClientState" type="hidden" autocomplete="off">
+	</div>
+										
+										<select size="4" name="ctl00$dcq$m_oValuesList" multiple="multiple" onchange="javascript:setTimeout(&#39;__doPostBack(\&#39;ctl00$dcq$m_oValuesList\&#39;,\&#39;\&#39;)&#39;, 0)" id="ctl00_dcq_m_oValuesList" class="m_oValuesList" style="height:80px;">
+		<option value="0">Non réponse</option>
+		<option selected="selected" value="1">Oui</option>
+		<option value="2">Non</option>
+
+	</select>
+										
+										
+										
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<select name="ctl00$dcq$ddlAction" onchange="javascript:setTimeout(&#39;__doPostBack(\&#39;ctl00$dcq$ddlAction\&#39;,\&#39;\&#39;)&#39;, 0)" id="ctl00_dcq_ddlAction" class="m_oVarList" style="width:195px;">
+		<option value="go" selected="selected">Aller à la question</option>
+		<option value="end">Terminer le questionnaire</option>
+
+	</select>
+								</td>
+								<td>
+									<select name="ctl00$dcq$selectGo" onchange="javascript:setTimeout(&#39;__doPostBack(\&#39;ctl00$dcq$selectGo\&#39;,\&#39;\&#39;)&#39;, 0)" id="ctl00_dcq_selectGo" style="width:250px;visibility:visible;">
+		<option value="1730577500">1-Entrez votre adresse mail</option>
+		<option value="708361529">2-Quel est votre nationalité ?</option>
+		<option value="1538187597">3-Êtes-vous actuellement étudiant en Licence 3 à l'école d'ingénieurs et Digital Campus ?</option>
+		<option value="1811879761">4-Si non, dans quel université avez-vous obtenu votre licence ?</option>
+		<option value="1599477051">5-Quel est votre programme de Licence 3 actuel à l'école d'ingénieurs et Digital Campus ?</option>
+		<option value="2032596510">6-Avez-vous l'intention de vous inscrire en Master pour l'année académique 2023-2024 à l'école d'ingénieurs et Digital Campus?</option>
+		<option value="2066409443">7-Pouvez-vous expliquer la raison ?</option>
+		<option value="566423053">8-Si vous avez l'intention de vous inscrire en Master, quel est le programme de Master qui vous intéresse à l'école d'ingénieurs et Digital Campus ?</option>
+		<option value="511556769">9-Si 'Autre (veuillez préciser)', précisez :</option>
+		<option value="1923458573">10-Êtes-vous satisfait de l'enseignement et des ressources fournies à l'école d'ingénieurs et Digital Campus ?</option>
+		<option value="570729372">11-Si vous n'êtes pas satisfait de l'enseignement et des ressources fournies, pouvez-vous expliquer pourquoi ?</option>
+		<option value="853386704">12-Comment cela a-t-il influencé votre décision de poursuivre en Master ?</option>
+		<option value="1422468505">13-Avez-vous des questions ou des préoccupations supplémentaires concernant la préinscription en Master 1 dans notre école d'ingénieurs ?</option>
+		<option value="110205526">14-Si oui veuillez les notifier</option>
+		<option value="247068733">15-Avez-vous déjà effectué des stages ou des projets de recherche dans le domaine de l'ingénierie ?</option>
+		<option value="225917918">16-Si oui, veuillez les décrire brièvement</option>
+		<option value="556692354">17-Avez-vous des expériences de leadership ou d'implication dans des activités extra-scolaires, des associations étudiantes ou des projets communautaires ?</option>
+		<option value="976849419">18-Si oui veuillez préciser</option>
+		<option value="791211021">19-Et enfin,avez-vous des commentaires ou des suggestions pour améliorer l'expérience des étudiants à l'école d'ingénieurs et Digital Campus ?</option>
+		<option value="1123389302" selected="selected">20-Si oui veuillez nous les partager</option>
+
+	</select>
+								</td>
+							</tr>
+						</tbody></table>
+					
+</div>
+				</div>
+			</div>
+		</div>
+		<div id="ctl00_dcq_divRandom" style="display: none;" class="divRandom div1 divtab">
+			<div class="bloc_1">
+				<div class="p">
+
+					La rotation aléatoire des pages permet de concevoir un questionnaire dans lequel des blocs de pages apparaissent dans un ordre aléatoire pour chaque nouveau répondant. Cela permet de minimiser le biais induit par un ordre donné, et d'améliorer la qualité des données dans certains cas spécifiques.
+					<br>
+					<br>
+					<h2>
+						<span>Exemples d'utilisations :</span></h2>
+					<br>
+					<ul>
+						<li>
+							Pour afficher aléatoirement les 11 pages de mon formulaire dont les extrémités sont fixes, écrire :&nbsp;<b>1;(2-10);11</b></li>
+						<li>
+							Pour présenter 3 produits parmi 5 et que chaque produit est défini sur 2 pages consécutives, écrire :&nbsp;<b>1;({2-3};{4;5};{6-7};{8;9};{10-11})%3;12</b></li>
+						<li>
+							Pour identifier plus facilement les blocs de pages dans la variable Random_Groupes créée dynamiquement, vous pouvez les nommer de la façon suivante :&nbsp;<b>1;({2-3}[Produit
+								A];{4;5}[Produit
+								B];{6;7}[Produit
+								C];{8-9}[Produit
+								D];{10-11}[Produit
+								E])%3;12</b></li>
+						<li>
+							Dans un cas plus complexe, pour présenter 3 produits (définis sur 2 pages) parmi 5 en présentant obligatoirement le premier produit, écrire :&nbsp;<b>1;({2-3}[Produit
+								A]*;{4;5}[Produit
+								B];{6;7}[Produit
+								C];{8-9}[Produit
+								D];{10-11}[Produit
+								E])%3;12</b></li>
+					</ul>
+					<br>
+					Attention, seules les pages indiquées dans la formule seront affichées dans le formulaire.
+				</div>
+				<div class="part">
+					<h2>
+						<label for="ctl00_dcq_txtRandomPages">Rotation aléatoire des pages :</label></h2>
+					<input name="ctl00$dcq$txtRandomPages" type="text" id="ctl00_dcq_txtRandomPages" style="width:500px;">
+					
+					<a id="ctl00_dcq_lnkHelpRandomPages" title="Accéder à l&#39;aide en ligne" class="b-s opacity" href="https://infos.lesphinx.eu/doc/sphinxDeclic/fr/Content/Conception_questionnaire/gestion_aleatoire_pages.htm" target="_blank" style="margin-left: 10px; position: relative; top: 3px;">
+						<span class="picto-s question_blue"></span>
+					</a>
+				</div>
+				<div class="part">
+					
+				</div>
+			</div>
+		</div>
+	</div>
+
+				</div>
+			</div></div>
+			<div id="ctl00_windowButtons">
+				<div id="popup_button">
+					<div id="ctl00_popup_button_wrapper" style="height: 100%;">
+						<div id="popup_button_left">
+							
+							
+						</div>
+						<div id="popup_button_right">
+							
+							
+							<a id="ctl00_btnOK" class="b-l green btnOK" href="javascript:__doPostBack(&#39;ctl00$btnOK&#39;,&#39;&#39;)"><span id="ctl00_pictoAccept" class="picto valid"></span><span id="ctl00_lblBtnOK" class="text">OK</span></a>
+							<a onclick="Cancel(); return false;" id="ctl00_btnCancel" class="b-l red btnCancel" href="javascript:__doPostBack(&#39;ctl00$btnCancel&#39;,&#39;&#39;)"><span class="picto annuler"></span><span id="ctl00_lblBtnCancel" class="text">Annuler</span></a>
+						</div>
+						<div class="clear_no_height">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	
+
+<script type="text/javascript">
+//<![CDATA[
+window.__TsmHiddenField = $get('ctl00_sm1_TSM');;(function() {
+                        function loadHandler() {
+                            var hf = $get('ctl00_ctl07_TSSM');
+                            if (!hf._RSSM_init) { hf._RSSM_init = true; hf.value = ''; }
+                            hf.value += ';Telerik.Web.UI, Version=2021.3.914.45, Culture=neutral, PublicKeyToken=121fae78165ba3d4:fr-FR:bd4f5d20-e2f4-41b1-99ef-02ee4a064af0:45085116:27c5704c:1c2121e;Telerik.Web.UI.Skins, Version=2021.3.914.45, Culture=neutral, PublicKeyToken=121fae78165ba3d4:fr-FR:bd68d779-31cd-457f-adc8-06e8ac5469a8:7681543b';
+                            Sys.Application.remove_load(loadHandler);
+                        };
+                        Sys.Application.add_load(loadHandler);
+                    })();Sys.Application.add_init(function() {
+    $create(Telerik.Web.UI.RadAjaxLoadingPanel, {"initialDelayTime":0,"isSticky":false,"minDisplayTime":0,"skin":"Default","uniqueID":"ctl00$ralp1","zIndex":90000}, null, null, $get("ctl00_ralp1"));
+});
+Sys.Application.add_init(function() {
+    $create(Telerik.Web.UI.RadAjaxManager, {"_updatePanels":"","ajaxSettings":[{InitControlID : "ctl00_dcq_m_oVarList",UpdatedControls : [{ControlID:"ctl00_windowContent",PanelID:""}]},{InitControlID : "ctl00_dcq_m_oDelLink",UpdatedControls : [{ControlID:"ctl00_windowContent",PanelID:""}]},{InitControlID : "",UpdatedControls : [{ControlID:"ctl00_windowContent",PanelID:""}]},{InitControlID : "ctl00_dcq_m_oAddLink",UpdatedControls : [{ControlID:"ctl00_windowContent",PanelID:""}]},{InitControlID : "ctl00_btnOK",UpdatedControls : [{ControlID:"ctl00_windowContent",PanelID:""},{ControlID:"ctl00_hdnAjaxReturn",PanelID:""},{ControlID:"ctl00_hdnAjaxReturnText",PanelID:""}]}],"clientEvents":{OnRequestStart:"",OnResponseEnd:"afterAjax"},"defaultLoadingPanelID":"","enableAJAX":true,"enableHistory":false,"links":[],"styles":[],"uniqueID":"ctl00$scriptContent$RadAjaxManager1","updatePanelsRenderMode":0}, null, null, $get("ctl00_scriptContent_RadAjaxManager1"));
+});
+
+var callBackFrameUrl='/d/WebResource.axd?d=doUp0NoYbT4_HuJDxxipDBWWrW0mJBaqc2Ofux4w0rJeROfvL838NwicF-h-RAQd5oGeaMG7uwTTgHk9Nl5aeCQmZGeDQ1iqzuSBFxEs1p41&t=637811765229275428';
+WebForm_InitCallback();Sys.Application.add_init(function() {
+    $create(Telerik.Web.UI.RadComboBox, {"_dropDownWidth":250,"_height":0,"_postBackReference":"__doPostBack(\u0027ctl00$dcq$m_oVarList\u0027,\u0027arguments\u0027)","_skin":"Bootstrap","_text":"1-Entrez votre adresse mail","_uniqueId":"ctl00$dcq$m_oVarList","_value":"1730577500","clientStateFieldID":"ctl00_dcq_m_oVarList_ClientState","collapseAnimation":"{\"type\":0,\"duration\":450}","expandAnimation":"{\"type\":0,\"duration\":450}","itemData":[{"value":"1730577500","selected":true},{"value":"708361529"},{"value":"1538187597"},{"value":"1811879761"},{"value":"1599477051"},{"value":"2032596510"},{"value":"2066409443"},{"value":"566423053"},{"value":"511556769"},{"value":"1923458573"},{"value":"570729372"},{"value":"853386704"},{"value":"1422468505"},{"value":"110205526"},{"value":"247068733"},{"value":"225917918"},{"value":"556692354"},{"value":"976849419"},{"value":"791211021"},{"value":"1123389302"}],"localization":"{\"AllItemsCheckedString\":\"All items checked\",\"ItemsCheckedString\":\"items checked\",\"CheckAllString\":\"Check All\"}","selectedIndex":0}, null, null, $get("ctl00_dcq_m_oVarList"));
+});
+Sys.Application.add_init(function() {
+    $create(Telerik.Web.UI.RadComboBox, {"_dropDownWidth":150,"_height":0,"_postBackReference":"__doPostBack(\u0027ctl00$dcq$m_oOpList\u0027,\u0027arguments\u0027)","_skin":"Bootstrap","_uniqueId":"ctl00$dcq$m_oOpList","clientStateFieldID":"ctl00_dcq_m_oOpList_ClientState","collapseAnimation":"{\"duration\":450}","expandAnimation":"{\"duration\":450}","itemData":[],"localization":"{\"AllItemsCheckedString\":\"All items checked\",\"ItemsCheckedString\":\"items checked\",\"CheckAllString\":\"Check All\"}"}, null, null, $get("ctl00_dcq_m_oOpList"));
+});
+//]]>
+</script>
+<span style="display: none !important;"><input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value=""></span><span style="display: none !important;"><input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value=""></span><span style="display: none !important;"><input type="hidden" name="__LASTFOCUS" id="__LASTFOCUS" value=""></span><span style="display: none !important;"><input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value=""></span><span style="display: none !important;"><input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAEmvVXD1oYELeveMr0vHCmYPVLtGoS4KRrphYcL/NBHpJAzAMEPqUoWnhbyO7XU9LhcMcy+UB9wEfSPJBWQMTqoDQKv5nfSxyTLlZrWy8eKt/CnjZF+rhGtYYIuSBRTg4Xo/J80Hm5DO6+nBEL93P2E2qEfQvAsh8+Hd6je3LsVMR+55lbr8lhuGOorjQpmRxHsgQ0hU8htXE8s7pNasjxm73jkdM2BLCAO7f5az6WVyNS9cET2QwQLZE3QJdg8Le5koIhxd6U1hHiCSSxxeGjW+j8tPiyw8UQ2bjDKEZkP7ANUOxEor4qJqnUXnWHwQK9aqX4bJ66rC04w4hwmP1ORBO/hGkxEapf0sqWoEuVeFCxTXYJ+VLlKDG+6nHYbUQXYLPgObP5TeOk9wGpKi/ArSrtfbQJpkCgfQ8HUj1qZfx4eXBT65yuyOzt0wXdIIwqhBnEjgHBlFdjqz4iBshTq2y6ioSC2/ORTP7Zwp06WPLulTQxID1/xWMT6pu2pUggJszLTI+mH6Is4rZ55VImJB2ls6/rH6wDyoKtUtgeOfHnYe1vtDge+cDw0lWqO9rADz4HHEdz4rzU38KNH7gwK9Yf3bJ0MqpRXFzngdmf3byvaQQAa+kqGBKsCv++OD5bCmiTWo0YRcYwJaRjizGlpQisifymYoychNpZs3CtBrL/QAyWqVuxg+Zbdpemv2ow2mh6VAo9EKvUWCLovvVOJr+gqTdCae1+25M4sjOG4TTnpVaT1faUq2aH+M46p+6yl7q5A6eYeE/wo2oKZ7rd87YRTCzpCDDNmFv5Lqp1sg5kWfmFHME0qTjbmJ884aMDhJLXm9lPNMnyItUzoq8Adp4+o1CwCOh+LKefjn2m76q3LZe8ThRHQ6JcMLZBvpFBAtGn4h2cbVqpYQjIG5QakSdhfC4skZnQx7iq+Czj8nnqky0ZOVIYTMp8WC0ZAMOYbDiGj4vHufhTzlyrfPX9RuNHO5t6sHlJA9SlyhAOf2ToLRnxMlScVXbqviyf2JUVCTPPET4a5ptPNto9DtFrtOBkblNwuGoP6iK5soHAyOY/ta/WNB+2jVg4O66jH9C1cX+HF3S3e4idMUeRbg97Td8TYuSQznPJ7L6XK5u/8a7hcew6ifYRzkgRURnHhdA3uaM6zGIhv/ml5R16Ftn9zKeK4MMZYXX43HwUBT0SCdh1YTU44HCRz1g9ZnmW6svMqkoZcRGIy2xVTTvrKQ3Ck/7NaooxBkb1TW4zoJEoH//600JeyiZCxtDEWgw1gdWwadz0mr2KUnG9ChVeSI/nwJgVBVYNUIl57LfPd6dmJim08PZvN2VOcx/ou/lnpkpTjoUAzastqnixvNAYYUoh9AWbURExPNjkkMOvtCznDrPds3Bn3LXjnmllShRAZvDn1tWJDkzErdUy8PwKNWGm0piCUyoTauDGm1z+5N3SaB6dYc07Q+RBNaX3EnFnkBVoKLmwLdN8AhAsNMUZQb0TPLaIh9GkI63C7G1K5O8GyezWP5c/zUAJpV/BgK8AWX/xhFREzrIHfT33D51+BsCd6kzeqNTUL5iMCrFF1+UuPj7MoJ2UI4N9wpQB2wrLp8Y6Q="></span></form>
+
+
+</body></html>

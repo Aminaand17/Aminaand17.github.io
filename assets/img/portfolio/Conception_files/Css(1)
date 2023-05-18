@@ -1,0 +1,273 @@
+.page {
+	max-width: 1024px;
+}
+#wrapper-p-401953586.titlepage>h2 {
+	font-weight: normal;
+}
+#wrapper-p-401953586.titlepage>p {
+	font-weight: normal;
+}
+section.wrapper-875293864.question  div input + span {
+}
+.rtl section.wrapper-875293864.question  .varclosebtn label, .rtl section.wrapper-875293864.question  .varclosebtn span.label, .rtl section.wrapper-875293864.question  td.closebtn div.cell-content, .rtl section.wrapper-875293864.question .closebtn div.cell-content {
+}
+section.wrapper-1004807076.question  div input + span {
+}
+.rtl section.wrapper-1004807076.question  .varclosebtn label, .rtl section.wrapper-1004807076.question  .varclosebtn span.label, .rtl section.wrapper-1004807076.question  td.closebtn div.cell-content, .rtl section.wrapper-1004807076.question .closebtn div.cell-content {
+}
+section.wrapper-1670247629.question  div input + span {
+}
+.rtl section.wrapper-1670247629.question  .varclosebtn label, .rtl section.wrapper-1670247629.question  .varclosebtn span.label, .rtl section.wrapper-1670247629.question  td.closebtn div.cell-content, .rtl section.wrapper-1670247629.question .closebtn div.cell-content {
+}
+section.wrapper-1670247629.question  .varclosebtn label.btn-selected, section.wrapper-1670247629.question  .varclosebtn span.label.btn-selected, section.wrapper-1670247629.question  td.closebtn div.cell-content.btn-selected, section.wrapper-1670247629.question .closebtn div.cell-content.btn-selected {
+	color: rgba(255, 255, 255, 1.00);
+	background-color: rgba(64, 64, 64, 1.00) !important;
+}
+section.wrapper-1973981273.question  div input + span {
+}
+.rtl section.wrapper-1973981273.question  .varclosebtn label, .rtl section.wrapper-1973981273.question  .varclosebtn span.label, .rtl section.wrapper-1973981273.question  td.closebtn div.cell-content, .rtl section.wrapper-1973981273.question .closebtn div.cell-content {
+}
+section.wrapper-1661585198.question  div input + span {
+}
+.rtl section.wrapper-1661585198.question  .varclosebtn label, .rtl section.wrapper-1661585198.question  .varclosebtn span.label, .rtl section.wrapper-1661585198.question  td.closebtn div.cell-content, .rtl section.wrapper-1661585198.question .closebtn div.cell-content {
+}
+div.strip-cell section.wrapper-875293864:not(.splitgroup) {
+	margin-top: 2px;
+	margin-bottom: 2px;
+	margin-left: 2px;
+	margin-right: 2px;
+	z-index: 0;
+}
+div.strip-cell section.wrapper-1004807076:not(.splitgroup) {
+	margin-top: 2px;
+	margin-bottom: 2px;
+	margin-left: 2px;
+	margin-right: 2px;
+	z-index: 1;
+}
+div.strip-cell section.wrapper-1670247629:not(.splitgroup) {
+	margin-top: 2px;
+	margin-bottom: 2px;
+	margin-left: 2px;
+	margin-right: 2px;
+	z-index: 2;
+}
+div.strip-cell section.wrapper-1973981273:not(.splitgroup) {
+	margin-top: 2px;
+	margin-bottom: 2px;
+	margin-left: 2px;
+	margin-right: 2px;
+	z-index: 3;
+}
+div.strip-cell section.wrapper-1661585198:not(.splitgroup) {
+	margin-top: 2px;
+	margin-bottom: 2px;
+	margin-left: 2px;
+	margin-right: 2px;
+	z-index: 4;
+}
+#wrapper-p-847228301.titlepage>h2 {
+	font-weight: normal;
+}
+#wrapper-p-847228301.titlepage>p {
+	font-weight: normal;
+}
+section.wrapper-304437483.question  div input + span {
+}
+.rtl section.wrapper-304437483.question  .varclosebtn label, .rtl section.wrapper-304437483.question  .varclosebtn span.label, .rtl section.wrapper-304437483.question  td.closebtn div.cell-content, .rtl section.wrapper-304437483.question .closebtn div.cell-content {
+}
+section.wrapper-304437483.question  .varclosebtn label.btn-selected, section.wrapper-304437483.question  .varclosebtn span.label.btn-selected, section.wrapper-304437483.question  td.closebtn div.cell-content.btn-selected, section.wrapper-304437483.question .closebtn div.cell-content.btn-selected {
+	color: rgba(255, 255, 255, 1.00);
+	background-color: rgba(64, 64, 64, 1.00) !important;
+}
+section.wrapper-1931457311.question  div input + span {
+}
+.rtl section.wrapper-1931457311.question  .varclosebtn label, .rtl section.wrapper-1931457311.question  .varclosebtn span.label, .rtl section.wrapper-1931457311.question  td.closebtn div.cell-content, .rtl section.wrapper-1931457311.question .closebtn div.cell-content {
+}
+section.wrapper-1611963439.question  div input + span {
+}
+.rtl section.wrapper-1611963439.question  .varclosebtn label, .rtl section.wrapper-1611963439.question  .varclosebtn span.label, .rtl section.wrapper-1611963439.question  td.closebtn div.cell-content, .rtl section.wrapper-1611963439.question .closebtn div.cell-content {
+}
+section.wrapper-1611963439.question  .varclosebtn label.btn-selected, section.wrapper-1611963439.question  .varclosebtn span.label.btn-selected, section.wrapper-1611963439.question  td.closebtn div.cell-content.btn-selected, section.wrapper-1611963439.question .closebtn div.cell-content.btn-selected {
+	color: rgba(255, 255, 255, 1.00);
+	background-color: rgba(64, 64, 64, 1.00) !important;
+}
+section.wrapper-1317298349.question  div input + span {
+}
+.rtl section.wrapper-1317298349.question  .varclosebtn label, .rtl section.wrapper-1317298349.question  .varclosebtn span.label, .rtl section.wrapper-1317298349.question  td.closebtn div.cell-content, .rtl section.wrapper-1317298349.question .closebtn div.cell-content {
+}
+section.wrapper-1460887873.question  div input + span {
+}
+.rtl section.wrapper-1460887873.question  .varclosebtn label, .rtl section.wrapper-1460887873.question  .varclosebtn span.label, .rtl section.wrapper-1460887873.question  td.closebtn div.cell-content, .rtl section.wrapper-1460887873.question .closebtn div.cell-content {
+}
+section.wrapper-1460887873.question  .varclosebtn label.btn-selected, section.wrapper-1460887873.question  .varclosebtn span.label.btn-selected, section.wrapper-1460887873.question  td.closebtn div.cell-content.btn-selected, section.wrapper-1460887873.question .closebtn div.cell-content.btn-selected {
+	color: rgba(255, 255, 255, 1.00);
+	background-color: rgba(64, 64, 64, 1.00) !important;
+}
+section.wrapper-1719017653.question  div input + span {
+}
+.rtl section.wrapper-1719017653.question  .varclosebtn label, .rtl section.wrapper-1719017653.question  .varclosebtn span.label, .rtl section.wrapper-1719017653.question  td.closebtn div.cell-content, .rtl section.wrapper-1719017653.question .closebtn div.cell-content {
+}
+section.wrapper-1336639707.question  div input + span {
+}
+.rtl section.wrapper-1336639707.question  .varclosebtn label, .rtl section.wrapper-1336639707.question  .varclosebtn span.label, .rtl section.wrapper-1336639707.question  td.closebtn div.cell-content, .rtl section.wrapper-1336639707.question .closebtn div.cell-content {
+}
+section.wrapper-1590563734.question  div input + span {
+}
+.rtl section.wrapper-1590563734.question  .varclosebtn label, .rtl section.wrapper-1590563734.question  .varclosebtn span.label, .rtl section.wrapper-1590563734.question  td.closebtn div.cell-content, .rtl section.wrapper-1590563734.question .closebtn div.cell-content {
+}
+section.wrapper-1590563734.question  .varclosebtn label.btn-selected, section.wrapper-1590563734.question  .varclosebtn span.label.btn-selected, section.wrapper-1590563734.question  td.closebtn div.cell-content.btn-selected, section.wrapper-1590563734.question .closebtn div.cell-content.btn-selected {
+	color: rgba(255, 255, 255, 1.00);
+	background-color: rgba(64, 64, 64, 1.00) !important;
+}
+section.wrapper-467006457.question  div input + span {
+}
+.rtl section.wrapper-467006457.question  .varclosebtn label, .rtl section.wrapper-467006457.question  .varclosebtn span.label, .rtl section.wrapper-467006457.question  td.closebtn div.cell-content, .rtl section.wrapper-467006457.question .closebtn div.cell-content {
+}
+div.strip-cell section.wrapper-304437483:not(.splitgroup) {
+	margin-top: 2px;
+	margin-bottom: 2px;
+	margin-left: 2px;
+	margin-right: 2px;
+	z-index: 5;
+}
+div.strip-cell section.wrapper-1931457311:not(.splitgroup) {
+	margin-top: 2px;
+	margin-bottom: 2px;
+	margin-left: 2px;
+	margin-right: 2px;
+	z-index: 6;
+}
+div.strip-cell section.wrapper-1611963439:not(.splitgroup) {
+	margin-top: 2px;
+	margin-bottom: 2px;
+	margin-left: 2px;
+	margin-right: 2px;
+	z-index: 7;
+}
+div.strip-cell section.wrapper-1317298349:not(.splitgroup) {
+	margin-top: 2px;
+	margin-bottom: 2px;
+	margin-left: 2px;
+	margin-right: 2px;
+	z-index: 8;
+}
+div.strip-cell section.wrapper-1460887873:not(.splitgroup) {
+	margin-top: 2px;
+	margin-bottom: 2px;
+	margin-left: 2px;
+	margin-right: 2px;
+	z-index: 9;
+}
+div.strip-cell section.wrapper-1719017653:not(.splitgroup) {
+	margin-top: 2px;
+	margin-bottom: 2px;
+	margin-left: 2px;
+	margin-right: 2px;
+	z-index: 10;
+}
+div.strip-cell section.wrapper-1336639707:not(.splitgroup) {
+	margin-top: 2px;
+	margin-bottom: 2px;
+	margin-left: 2px;
+	margin-right: 2px;
+	z-index: 11;
+}
+div.strip-cell section.wrapper-1590563734:not(.splitgroup) {
+	margin-top: 2px;
+	margin-bottom: 2px;
+	margin-left: 2px;
+	margin-right: 2px;
+	z-index: 12;
+}
+div.strip-cell section.wrapper-467006457:not(.splitgroup) {
+	margin-top: 2px;
+	margin-bottom: 2px;
+	margin-left: 2px;
+	margin-right: 2px;
+	z-index: 13;
+}
+#wrapper-p-1189861183.titlepage>h2 {
+	font-weight: normal;
+}
+#wrapper-p-1189861183.titlepage>p {
+	font-weight: normal;
+}
+section.wrapper-1466478152.question  div input + span {
+}
+.rtl section.wrapper-1466478152.question  .varclosebtn label, .rtl section.wrapper-1466478152.question  .varclosebtn span.label, .rtl section.wrapper-1466478152.question  td.closebtn div.cell-content, .rtl section.wrapper-1466478152.question .closebtn div.cell-content {
+}
+section.wrapper-1466478152.question  .varclosebtn label.btn-selected, section.wrapper-1466478152.question  .varclosebtn span.label.btn-selected, section.wrapper-1466478152.question  td.closebtn div.cell-content.btn-selected, section.wrapper-1466478152.question .closebtn div.cell-content.btn-selected {
+	color: rgba(255, 255, 255, 1.00);
+	background-color: rgba(64, 64, 64, 1.00) !important;
+}
+section.wrapper-611062927.question  div input + span {
+}
+.rtl section.wrapper-611062927.question  .varclosebtn label, .rtl section.wrapper-611062927.question  .varclosebtn span.label, .rtl section.wrapper-611062927.question  td.closebtn div.cell-content, .rtl section.wrapper-611062927.question .closebtn div.cell-content {
+}
+section.wrapper-316245055.question  div input + span {
+}
+.rtl section.wrapper-316245055.question  .varclosebtn label, .rtl section.wrapper-316245055.question  .varclosebtn span.label, .rtl section.wrapper-316245055.question  td.closebtn div.cell-content, .rtl section.wrapper-316245055.question .closebtn div.cell-content {
+}
+section.wrapper-316245055.question  .varclosebtn label.btn-selected, section.wrapper-316245055.question  .varclosebtn span.label.btn-selected, section.wrapper-316245055.question  td.closebtn div.cell-content.btn-selected, section.wrapper-316245055.question .closebtn div.cell-content.btn-selected {
+	color: rgba(255, 255, 255, 1.00);
+	background-color: rgba(64, 64, 64, 1.00) !important;
+}
+section.wrapper-1983604349.question  div input + span {
+}
+.rtl section.wrapper-1983604349.question  .varclosebtn label, .rtl section.wrapper-1983604349.question  .varclosebtn span.label, .rtl section.wrapper-1983604349.question  td.closebtn div.cell-content, .rtl section.wrapper-1983604349.question .closebtn div.cell-content {
+}
+section.wrapper-651227451.question  div input + span {
+}
+.rtl section.wrapper-651227451.question  .varclosebtn label, .rtl section.wrapper-651227451.question  .varclosebtn span.label, .rtl section.wrapper-651227451.question  td.closebtn div.cell-content, .rtl section.wrapper-651227451.question .closebtn div.cell-content {
+}
+section.wrapper-651227451.question  .varclosebtn label.btn-selected, section.wrapper-651227451.question  .varclosebtn span.label.btn-selected, section.wrapper-651227451.question  td.closebtn div.cell-content.btn-selected, section.wrapper-651227451.question .closebtn div.cell-content.btn-selected {
+	color: rgba(255, 255, 255, 1.00);
+	background-color: rgba(64, 64, 64, 1.00) !important;
+}
+section.wrapper-1445787716.question  div input + span {
+}
+.rtl section.wrapper-1445787716.question  .varclosebtn label, .rtl section.wrapper-1445787716.question  .varclosebtn span.label, .rtl section.wrapper-1445787716.question  td.closebtn div.cell-content, .rtl section.wrapper-1445787716.question .closebtn div.cell-content {
+}
+div.strip-cell section.wrapper-1466478152:not(.splitgroup) {
+	margin-top: 2px;
+	margin-bottom: 2px;
+	margin-left: 2px;
+	margin-right: 2px;
+	z-index: 14;
+}
+div.strip-cell section.wrapper-611062927:not(.splitgroup) {
+	margin-top: 2px;
+	margin-bottom: 2px;
+	margin-left: 2px;
+	margin-right: 2px;
+	z-index: 15;
+}
+div.strip-cell section.wrapper-316245055:not(.splitgroup) {
+	margin-top: 2px;
+	margin-bottom: 2px;
+	margin-left: 2px;
+	margin-right: 2px;
+	z-index: 16;
+}
+div.strip-cell section.wrapper-1983604349:not(.splitgroup) {
+	margin-top: 2px;
+	margin-bottom: 2px;
+	margin-left: 2px;
+	margin-right: 2px;
+	z-index: 17;
+}
+div.strip-cell section.wrapper-651227451:not(.splitgroup) {
+	margin-top: 2px;
+	margin-bottom: 2px;
+	margin-left: 2px;
+	margin-right: 2px;
+	z-index: 18;
+}
+div.strip-cell section.wrapper-1445787716:not(.splitgroup) {
+	margin-top: 2px;
+	margin-bottom: 2px;
+	margin-left: 2px;
+	margin-right: 2px;
+	z-index: 19;
+}

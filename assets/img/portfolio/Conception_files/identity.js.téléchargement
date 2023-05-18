@@ -1,0 +1,46 @@
+﻿/*!
+ * Powered by Sphinx
+ * http://www.lesphinx.eu
+ *
+ * Copyright (c) Le Sphinx Développement
+ */
+; (function (document) {
+	var silentRefreshIdentityIFrameName = 'v4-silent-refresh-iframe';
+	var refreshIdentitySecondInterval = 60;
+	var silentRefreshIdentityTimer;
+
+	var startSilentRefreshIdentity = function () {
+		stopSilentRefreshIdentityTimer();
+		silentRefreshIdentityTimer = setInterval(
+			refreshIdentity,
+			refreshIdentitySecondInterval * 1000
+		);
+		document.addEventListener('DOMContentLoaded', refreshIdentity, { once: true });
+	}
+
+	var stopSilentRefreshIdentityTimer = function () {
+		if (silentRefreshIdentityTimer) {
+			clearInterval(silentRefreshIdentityTimer);
+			silentRefreshIdentityTimer = null;
+		}
+	}
+
+	var refreshIdentity = function () {
+		var existingIframe = document.getElementById(
+			silentRefreshIdentityIFrameName
+		);
+		if (existingIframe) {
+			document.body.removeChild(existingIframe);
+		}
+
+		var iframe = document.createElement('iframe');
+		iframe.id = silentRefreshIdentityIFrameName;
+		iframe.setAttribute('src', refreshIdentityUrl);
+		iframe.style['display'] = 'none';
+
+		document.body.appendChild(iframe);
+	}
+
+	startSilentRefreshIdentity();
+
+})(document);
